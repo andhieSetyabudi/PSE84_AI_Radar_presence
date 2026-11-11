@@ -1,0 +1,121 @@
+board_names:
+  - KIT_PSE84_AI
+total_examples: 148
+categories:
+  - category: Audio
+    count: 6
+    tags: [ae, afe, audio front end, deployment, sensory, staged voice control (svc) middleware, voice, audio enhancement, benchmarking, local voice, voice assistant, audio, deepcraft]
+  - category: Bluetooth
+    count: 28
+    tags: ["43012", 4343w, advertisement, capsense, central, ess, hellosensor, hf, multibeacon, onboarding, privacy, psoc6, sensorhub, sync, unicast, xmc7000, a2dp, alert, broadcast, caching, cts, eatt, findme, gateway, gatt, hfp, isoc, periodic, peripheral, source, le-audio, sink, freertos, btstack, server, client, audio, wifi, ble, bluetooth]
+  - category: Getting Started
+    count: 2
+    tags: [blank, empty, hello world, led, template, starter]
+  - category: Graphics
+    count: 12
+    tags: [buffering, cpu, data retention, decoder, double, dsi, gpu, hmi, humidity, jpeg-decoder, lane, multiscreen, pos, rendering, rlad, single, smartwatch, temperature, ulpm, vglite, data, demo, jpeg, psram, radar, sensor, imu, spi, voice assistant, lvgl, ml, gfx, graphics, wifi, ble]
+  - category: Machine Learning
+    count: 12
+    tags: [ai hub, collection, face id, motion, protocol, radar sensor, rps detection, rps game, streaming, data, deploy, deploy vision, paper, profiler, radar, rock, rps, scissors, camera, imu, spi, vision, pdm, usb, audio, deepcraft, ml, gfx, graphics]
+  - category: Peripherals
+    count: 48
+    tags: [active-tamper, adc, canfd, capture, convolution, core, dac, dsp, dt, dualcompare, eeprom, emfile, emulated, ezi2c, filesystem, flash, frequency, generic, hibernate, host, i2c controller, littlefs, lpcomp, master, mcwdt, measurements, motor, mouse, pcm, pipes, playback, posix, read, recorder, resume, rram, semaphore, serial, sgpio, suspend, switching, timer, uart, wakeup, wdt, write, xip, benchmarking, cdc, dma, echo, fs, hid, i3c, ipc, led, nvm, psram, rtc, smif, tcpwm, device, gpio, i2s, spi, freertos, pdm, power, pwm, smartio, usb, emusb, audio]
+  - category: Security
+    count: 21
+    tags: [aes, attestation, aws, commands, dfu, encryption, fleet provisioning, interrupt, mbedtls, mcuboot, otw, psa, sha, sram load, tls, crypto, cryptography, smif, srf, gpio, https, mqtt, ota, freertos, power, starter, tf-m, btstack, trustzone, bootloader, security, ble]
+  - category: Sensing
+    count: 1
+    tags: [aquisition, fusion, hub, orientation, sensor, imu]
+  - category: Wi-Fi
+    count: 18
+    tags: [azure, dualcore, scan, vcm, virtual-mqtt, web-server, gateway, iot, low-power, manufacturing, secure, tester, tool, udp, https, mqtt, tcp, wlan, server, client, wifi, ble, bluetooth]
+acronym_map:
+  afe:
+    - Audio Front-End
+    - Analog Front-End
+  asf:
+    - Alternative Serial Interface to securely load and execute target code directly over an alternate serial connection during device provisioning or early booting stages — NOT Atmel Software Framework
+  ccm:
+    - Cloud Connectivity Manager — NOT Counter with CBC-MAC
+  cts:
+    - Current Time Service — NOT Clear To Send
+  ess:
+    - Environmental Sensing Service — NOT Extended Service Set
+  hppass:
+    - High-Performance Programmable Analog Sub-System
+  lpa:
+    - Low Power Assistant
+  lppass:
+    - Low-Power Autonomous Analog Sub-System
+  mfs:
+    - Multi-Frequency Scan — CAPSENSE noise-rejection mode
+  mpc:
+    - Memory Protection Controller
+  msc:
+    - Multi Sense Converter (CAPSENSE parts)
+    - Mass Storage Class (USB parts)
+  mtbml:
+    - ModusToolbox Machine Learning
+  otp:
+    - One-Time Programmable memory — NOT One-Time Password
+  pdl:
+    - Peripheral Driver Library — the low-level ModusToolbox driver layer
+  rlad:
+    - Run-Length Adaptive Dithering — fixed-function decompression block in the GPU pipeline, not a software codec
+  scb:
+    - Serial Communication Block — configurable UART/SPI/I2C peripheral
+  smif:
+    - Serial Memory Interface — external flash/PSRAM controller
+  srf:
+    - Secure Request Framework
+  stl:
+    - Safety Test Library — NOT the C++ Standard Template Library
+  svc:
+    - Staged Voice Control middleware — NOT the Arm Cortex-M SVC (Supervisor Call) instruction
+  tcpwm:
+    - Peripheral Block configurable as a Timer, Counter, PWM
+  wcm:
+    - Wi-Fi Connection Manager
+synonym_map:
+  advertising:
+    - advertiser
+    - advertisement
+    - broadcast
+  ble:
+    - bluetooth low energy
+    - bluetooth le
+    - bt le
+  bluetooth:
+    - bt
+  capsense:
+    - capacitive sensing
+    - touch
+    - button
+    - slider
+  freertos:
+    - rtos
+    - real-time operating system
+  gfx:
+    - graphics
+    - display
+  ml:
+    - machine learning
+    - ai
+    - deepcraft
+  ota:
+    - over-the-air
+    - firmware update
+  pdm:
+    - microphone
+    - mic
+    - pdm-pcm
+  uart:
+    - serial
+    - console
+  wifi:
+    - wi-fi
+    - wireless lan
+    - wlan
+    - wireless
+notes:
+  - Expand the user's request into a small set of tags from this vocabulary, then call search. Tags are listed rarest (most discriminating) first, so prefer earlier ones; use acronym_map/synonym_map to bridge natural-language phrasing onto tags. An acronym listing more than one long form is ambiguous in this catalog — pick by context rather than assuming the first.
